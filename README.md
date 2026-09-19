@@ -1,17 +1,17 @@
-# Flight Forecaster
+# ✈️ Flight Forecaster
 
 A Streamlit-based flight fare trend forecaster for African airlines and international routes, with Kenyan shilling (KSh) pricing and model-based trend prediction.
 
-## Features
+## 🌍 Features
 
-- Synthetic airfare dataset modelled around African hub airports and international destinations
-- Forecasting logic for buy-now vs wait recommendations
-- Route trend visualizations with Plotly
-- Airline comparison charts
-- Optional Playwright live scraper for live flight listings
-- Regression and classification modelling with a sklearn-compatible fallback
+- ✈️ Synthetic airfare dataset modelled around African hub airports and international destinations
+- 📈 Forecasting logic for buy-now vs wait recommendations
+- 📊 Route trend visualizations with Plotly
+- 🛫 Airline comparison charts
+- 🕷️ Optional Playwright live scraper for live flight listings
+- 🤖 Regression and classification modelling with a sklearn-compatible fallback
 
-## Project structure
+## 🗂️ Project structure
 
 - `app.py` – Streamlit dashboard
 - `model_pipeline.py` – data generation and forecasting pipeline
@@ -19,7 +19,7 @@ A Streamlit-based flight fare trend forecaster for African airlines and internat
 - `tests/test_flight_forecaster.py` – regression test
 - `pytest.ini` – pytest configuration
 
-## Running locally
+## ▶️ Running locally
 
 1. Create and activate a virtual environment if needed.
 2. Install dependencies:
@@ -41,10 +41,10 @@ A Streamlit-based flight fare trend forecaster for African airlines and internat
    streamlit run app.py
    ```
 
-## Usage
+## 🧭 Usage
 
 Select an African origin airport and an international destination, adjust the travel window, and review the model recommendation for whether to book now or wait.
 
-## Notes
+## 📝 Notes
 
 This project uses a synthetic fare dataset by default. The live scraper is optional and requires a compatible browser environment.
