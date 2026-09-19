@@ -172,7 +172,7 @@ else:
         )
 
         fig_scatter.update_xaxes(autorange="reversed")
-        st.plotly_chart(fig_scatter, use_container_width=True)
+        st.plotly_chart(fig_scatter, width="stretch")
 
     with tab_airlines:
         st.markdown("**Price Distribution Across Airlines**")
@@ -185,7 +185,7 @@ else:
             labels={'current_price': 'Ticket Fare (KSh)', 'airline': 'Carrier'},
             template="plotly_white"
         )
-        st.plotly_chart(fig_box, use_container_width=True)
+        st.plotly_chart(fig_box, width="stretch")
 
     with tab_table:
         st.markdown("**Historical Route Sample Data**")
